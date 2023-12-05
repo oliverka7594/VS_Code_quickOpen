@@ -1,17 +1,11 @@
-# QuickInput Sample
+# QuickInput Sample with Quick Create Implemented (per issue #196580)
 
-This is a sample extension that shows the QuickInput UI and usage of the QuickInput API.
+This extension implements the quick create feature:
+When you use the quickOpen feature (“ctrl” + “P”) to search for a path that doesn’t exist, displaying “no matching results” was the end of the conversation. Is it requested to add a feature: when a path doesn’t exist, a prompt appears and suggests you to hit enter to create this file. 
+
 
 It is not intended as a production quality extension.
 
-- Open the command palette
-- Run "Quick Input Samples"
-- Pick one of the samples and see it run
-
-## How it works
-
-- The extension uses the [`QuickPick`](https://code.visualstudio.com/api/references/vscode-api#QuickPick) and [`InputBox`](https://code.visualstudio.com/api/references/vscode-api#InputBox) API to show a UI for user input.
-- Registers a command via `package.json` that will trigger the quick input
 
 # How to run locally
 
