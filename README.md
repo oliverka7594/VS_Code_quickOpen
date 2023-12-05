@@ -4,9 +4,6 @@ This extension implements the quick create feature:
 When you use the quickOpen feature (“ctrl” + “P”) to search for a path that doesn’t exist, displaying “no matching results” was the end of the conversation. Is it requested to add a feature: when a path doesn’t exist, a prompt appears and suggests you to hit enter to create this file. 
 
 
-It is not intended as a production quality extension.
-
-
 # How to run locally
 
 - Run `npm install` in terminal to install dependencies
